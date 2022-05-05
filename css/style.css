@@ -1,0 +1,17 @@
+/* login page */
+.label-login{
+    font-family: Quicksand;
+    font-weight: bold;
+}
+.log-m{
+    padding-top: 12%;
+}
+.log-sub{
+    text-align: center;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+body{
+    background-color: antiquewhite;
+}
+/* end - login pade  */
