@@ -13,19 +13,31 @@
   </head>
   <body>
     <div id="nav-bar">
-      <nav class="navbar navbar-light"  style="background-color: #e6e6e6;">
+      <nav class="navbar navbar-light"  style="background-color: #f2f2f2;">
         <form class="container-fluid justify-content-start">
           <div class="col-md-12 text-left">
-            <a class="btn btn-sm btn-outline-secondary" href="#" role="button">To-do List</a>
-            <a class="btn btn-sm btn-outline-secondary" href="./index.html" role="button">Log out</a>
+            <a class="btn btn-sm btn-outline-secondary" id="list" role="button">To-do List</a>
+            <a class="btn btn-sm btn-outline-secondary" id="logout" role="button">Log out</a>
           </div>
         </form>
       </nav>
     </div>
 
-    <div>
-      JS
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">task</th>
+            <th scope="col">status</th>
+          </tr>
+        </thead>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+      </table> 
     </div>
+    
 
     <script src="./script/to-do.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->

@@ -16,7 +16,6 @@ forms.addEventListener("submit", function(event){
         event.preventDefault();
     }
     else{
-        alert('success'); //remove later
     }
 })
 
